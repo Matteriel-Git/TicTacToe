@@ -1,5 +1,3 @@
-
-
 const statusDisplay = document.querySelector('.game--status');
 
 let gameActive = true;
@@ -33,6 +31,7 @@ const winningConditions = [
     [0, 4, 8],
     [2, 4, 6]
 ];
+
 function handleResultValidation() {
     let roundWon = false;
     for (let i = 0; i <= 7; i ++) {
